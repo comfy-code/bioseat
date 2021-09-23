@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 0% 0% 1%;
+  color: #171717;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+  width: 100%;
+}
+
+.nav h1 {
+  /* font-family: "Raleway", sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+
+.nav div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 10%;
+}
+
+.nav div a {
+  padding: 0% 0% 0% 40%;
+  font-size: 160%;
+  font-family: "Roboto", sans-serif;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header div:first-child {
+  width: 35%;
+  padding: 0% 5% 0% 1%;
+  margin: 18% 0%;
+}
+
+.header div p,
+.header div h2 {
+  padding: 0% 0% 8% 0%;
+}
+
+.store-img {
+  width: 190px;
+  height: 60px;
+  padding: 0% 4% 8% 0%;
+}
+
+.header h2 {
+  font-size: 300%;
+  color: #171717;
+  font-family: "Raleway", sans-serif;
+}
+
+.header p {
+  font-size: 150%;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-img {
+  height: 100vh;
+  width: 45vw;
+  object-fit: cover;
+}
+
+/* --------- FEATURES---------  */
+.features {
+  text-align: center;
+  padding: 3%;
+  background-color: #082032;
+  color: white;
+}
+
+.features h2,
+.how-it-works h2,
+.testimonials h2 {
+  font-size: 300%;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+.features-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-1,
+.feature-2,
+.feature-3,
+.feature-4,
+.feature-5,
+.feature-6 {
+  width: 25%;
+  margin: 3%;
+}
+
+.features p {
+  font-size: 120%;
+  margin: 2% 0%;
+  font-family: "Roboto", sans-serif;
+  color: silver;
+}
+
+.features h3 {
+  margin: 2% 0%;
+  font-size: 130%;
+  font-family: "Raleway", sans-serif;
+}
+
+/* ------------ HOW - IT - WORKS ------------  */
+.how-it-works {
+  margin: 2% 0%;
+}
+
+.how-it-works h2 {
+  text-align: center;
+}
+
+.step1,
+.step2,
+.step3 {
+  display: flex;
+  background-color: whitesmoke;
+  width: 80%;
+  border-radius: 6px;
+  padding: 2%;
+  margin-bottom: 5%;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.step1 .heading-div,
+.step2 .heading-div,
+.step3 .heading-div {
+  background-color: #da0037;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 4%;
+  /* margin-right: 2%; */
+}
+
+.step1 h3,
+.step2 h3,
+.step3 h3 {
+  font-size: 2em;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.step1 h4,
+.step2 h4,
+.step3 h4 {
+  font-size: 170%;
+  margin: 2% 0%;
+  font-family: "Raleway", sans-serif;
+}
+
+.step1 p,
+.step2 p,
+.step3 p {
+  font-size: 120%;
+  color: #444444;
+  font-family: "Roboto", sans-serif;
+}
+
+/* --------- TESTIMONIALS ----------  */
+.testimonials {
+  padding: 2%;
+  background-color: #082032;
+}
+
+.testimonials h2,
+.testimonials .firstp {
+  text-align: center;
+  color: silver;
+}
+
+.testimonials .firstp {
+  font-size: 130%;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2%;
+}
+
+.testimonials-div {
+  display: flex;
+  justify-content: center;
+}
+
+.test1,
+.test2,
+.test3 {
+  width: 33%;
+  padding: 2%;
+  background-color: #2c394b;
+  color: silver;
+  border-radius: 6px;
+  margin: 1%;
+}
+
+.test1 div,
+.test2 div,
+.test3 div {
+  margin-bottom: 3%;
+}
+
+.test1 h3,
+.test2 h3,
+.test3 h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+.test1 p,
+.test2 p,
+.test3 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 120%;
+}
