@@ -230,3 +230,18 @@
   font-family: "Roboto", sans-serif;
   font-size: 120%;
 }
+
+.button1 {
+  background-color: #da0037;
+  border: none;
+  padding: 12px 20px;
+  font-size: 130%;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.button1 a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
