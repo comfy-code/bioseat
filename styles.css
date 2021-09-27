@@ -245,3 +245,19 @@
   text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
+
+.main-img {
+  height: 500px;
+  top: 180px;
+  object-fit: contain;
+  position: absolute;
+  left: 500px;
+}
+
+@media screen and (min-width: 2560px) {
+  .main-img {
+    left: 900px;
+    height: 900px;
+    top: 230px;
+  }
+}
