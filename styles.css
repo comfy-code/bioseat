@@ -69,7 +69,7 @@
 }
 
 .header-img {
-  height: 100vh;
+  height: auto;
   width: 45vw;
   object-fit: cover;
 }
